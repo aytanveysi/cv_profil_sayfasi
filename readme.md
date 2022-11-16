@@ -1,0 +1,1 @@
+kazsız belasız ilk bölümü göndermiş bulunmaktayım hocam.
