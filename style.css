@@ -383,14 +383,14 @@ display: none;
 
 .service .box-container .box p{
     color: #666;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding-top: .5rem;
 }
 
 .experience .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    
 
 }
 
@@ -436,6 +436,12 @@ display: none;
     padding: .5rem 0;
     color: #111;
 }
+
+.experience .box-container .box .content p{
+    font-size: 1.3rem;
+    color: #666;
+}
+
 
    
 
@@ -508,6 +514,10 @@ header{
         .cursor-1,
         .cursor-2{
             display: none;
+        }
+
+        .experience .box-container .box {
+            padding-right: 0;
         }
 }
 
