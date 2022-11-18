@@ -442,6 +442,28 @@ display: none;
     color: #666;
 }
 
+.portfolio .box-container{
+    display: flex;
+  flex-wrap: wrap;
+ gap: 1.5rem;
+}
+
+.portfolio .box-container .box{
+    flex: 1 1 19.7rem;
+    height: 27rem;
+    position: relative;
+    overflow: hidden;
+    border: 1rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   /* position: relative;
+    z-index: 1; */
+}
 
    
 
