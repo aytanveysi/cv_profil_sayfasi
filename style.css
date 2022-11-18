@@ -607,8 +607,18 @@ display: none;
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
+ footer{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    color: #666;
+ }
 
-
+ footer span{
+    color: var(--main-color);
+ }
 
 
 
@@ -666,7 +676,7 @@ display: none;
 }
 @media (max-width:450px) {
     html{
-        font-size: 50%;
+        font-size: 30%;
     }
 
 header{
